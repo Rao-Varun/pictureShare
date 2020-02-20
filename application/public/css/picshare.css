@@ -1,0 +1,146 @@
+
+
+#header {
+    padding: 10px;
+    text-align: center;
+    background: #008CBA;;
+    color: white;
+    font-size: 30px;
+    position:relative;
+
+}
+#table {
+    margin: auto;
+    margin-top: 80px;
+    width: 50%;
+    padding: 10px;
+    font-size:medium;
+
+}
+td {
+    height: 40px;
+}
+
+.login, .user_comment, .user_name{
+    width: 100%;
+}
+
+.button, .join{
+    background-color: #008CBA; /*Blue*/
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: medium;
+}
+
+.container  {
+    content: "";
+    clear: both;
+    display: flex;
+    height: 100%
+
+}
+
+.group{
+    background-color: #C0C0C0;
+    width: 25%;
+    height: 100%;
+    padding: 5px;
+
+}
+
+.content {
+    width: 75%;
+    padding: 5px;
+}
+
+.headerContainers{
+    width: 100%;
+    overflow: hidden;
+}
+.headerContainers:after{
+    clear: both;
+    display: table;
+
+}
+
+.headerlink{
+    float: right;
+    display: table-cell;
+    padding: 5px;
+    bottom: 10px;
+    color: white;
+    text-decoration: none;
+    width: 15%;
+    text-align: right;
+
+
+}
+
+.anchorgroup{
+    font-size: large;
+    padding: 8%;
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.anchorgroup:after{
+    content: "\A";
+    white-space: pre;
+}
+
+img {
+    width: 80%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10% ;
+    padding-right: 10%;
+    display: inline-block;
+}
+img:after{
+    content: "\A";
+    white-space: pre;
+}
+
+.group_name{
+    width: 100%;
+    font-size: x-large;
+    text-align: center;
+
+}
+
+#add_pic{
+    margin-left: 80%;
+    background-color: #008CBA; /*Blue*/
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: medium;
+}
+
+#button {
+    margin-top: 10px;
+    margin-left: 10%;
+}
+
+.comment_input {
+    width: 80%;
+    margin-left: 10%;
+    margin-right:10%;
+    height: 200px;
+}
+
+.comment_box{
+    width: 80%;
+    margin-left: 10%;
+    margin-right:10%;
+    background-color: #888888;
+}
+
